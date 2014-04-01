@@ -1,3 +1,19 @@
+/*
+Theme Name: Manifest
+Theme URI: http://jimbarraud.com/manifest
+Author: Jim Barraud
+Author URI: http://jimbarraud.com/
+Description: A clean and simple Wordpress theme
+Version: 2.0 Beta
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: Manifest 
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
 @import url(css/normalize.css);*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}body{margin:0;font-size:100%;font-family:georgia,"times new roman",serif}a:link,a:visited{color:#900}a img{border:none}input[type="text"],textarea{padding:5px;border-radius:2px;border:1px solid #ccc;font-size:14px;width:400px}@media (max-width: 960px){input[type="text"],textarea{width:73%}}@media (max-width: 480px){input[type="text"],textarea{width:100%}}
 input[type="submit"],input[type="button"],button{border:1px solid #ddd;background:#ddd;border-radius:2px;padding:5px 10px;font-size:12px;text-transform:uppercase}textarea{height:150px}p,blockquote,li,th,td,cite{line-height:28px;font-size:18px}@media (max-width: 480px){p,blockquote,li,th,td,cite{line-height:24px;font-size:16px}}
 table{width:100%}table tr{border-bottom:1px solid #ccc}table th,table td{font-size:16px;text-align:left;padding:5px}table th:first-child,table td:first-child{padding-left:0}table th:last-child,table td:last-child{padding-right:0}dt{font-weight:bold;margin-top:15px}dt:first-child{margin-top:0}dd{margin:0}.site-header{margin:0 auto 50px;max-width:700px;position:relative}.site-header h1{text-align:center;font-family:"Hoefler Text",georgia,"times new roman",serif;font-size:34px;text-transform:uppercase;color:#666;font-weight:normal;margin:40px 0 20px}.site-header h1 a:link,.site-header h1 a:visited{text-decoration:none;color:#333}@media (max-width: 480px){.site-header h1{font-size:28px}}.site-header h2{text-align:center;font-size:14px;color:#666;font-weight:normal;margin:25px 0;font-style:italic}.site-header img{margin:0 auto 30px;display:block}.menu{margin:0;padding:0;list-style:none;text-align:center}.menu ul{padding:0;margin:0}.menu li{display:inline-block;font-size:16px}.menu li a{text-decoration:none;padding:0 10px;font-family:"Hoefler Text",georgia,"times new roman",serif}.menu li:last-child{margin-right:0}.menu .menu-item:hover .sub-menu{padding-top:0}@media (max-width: 480px){.menu{position:absolute;left:50%;margin-left:-100px;top:20px;width:200px;border:none;padding:0;background:none;padding-top:10px;display:none;text-align:left !important;z-index:300}.menu ul{margin-top:0;padding-left:0}.menu li{display:block;min-width:150px;margin:0}.menu a:link,.menu a:visited{background:#efefef;display:block;text-transform:capitalize;padding:10px;line-height:1;border-bottom:1px solid #fff;box-shadow:0 2px 4px rgba(0,0,0,0.3)}.menu:before{position:absolute;display:block;z-index:20;left:92px;top:2px;border-bottom:8px solid #efefef;border-left:8px solid transparent;border-right:8px solid transparent;content:""}.menu .sub-menu{position:static;display:block;width:100%;margin-top:0;background:#f9f9f9}.menu .sub-menu li a{padding-left:20px}.menu .sub-menu:before{border:none}}
