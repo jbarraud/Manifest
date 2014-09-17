@@ -72,6 +72,7 @@
 	<?php endif; ?>
 
 	<?php
+	$aria_req = ( $req ? " aria-required='true'" : '' );
 	$comments_args = array(
 		'comment_notes_before' => '',
 		'comment_notes_after' => '',
