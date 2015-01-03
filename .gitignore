@@ -2,3 +2,6 @@
 *.scss
 *.codekit
 *.map
+node_modules/
+Gruntfile.js
+package.json
