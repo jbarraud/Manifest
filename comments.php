@@ -29,7 +29,7 @@
 	<?php if ( have_comments() ) : ?>
 		<h2 class="comments-title">
 			<?php
-				printf( _n( 'One thought on &ldquo;%2$s&rdquo;', '%1$s thoughts on &ldquo;%2$s&rdquo;', get_comments_number(), 'manifest' ),
+				printf( _n( __( 'One thought on &ldquo;%2$s&rdquo;', 'manifest' ), __( '%1$s thoughts on &ldquo;%2$s&rdquo;', 'manifest'), get_comments_number(), 'manifest' ),
 					number_format_i18n( get_comments_number() ), '<span>' . get_the_title() . '</span>' );
 			?>
 		</h2>
@@ -72,43 +72,44 @@
 	<?php endif; ?>
 
 	<?php
+	$aria_req = ( $req ? " aria-required='true'" : '' );
 	$comments_args = array(
 		'comment_notes_before' => '',
 		'comment_notes_after' => '',
 
-      'fields' => apply_filters( 'comment_form_default_fields', array(
+		'fields' => apply_filters( 'comment_form_default_fields', array(
 
-    'author' =>
-      '<p class="comment-form-author">' .
-      '<label for="author">'. ( $req ? '<span class="required" title="Required">*</span>' : '' ) . __( 'Name', 'domainreference' ) . '</label> ' .
-      
-      '<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
-      '" size="30"' . $aria_req . ' /></p>',
+			'author' =>
+				'<p class="comment-form-author">' .
+				'<label for="author">'. ( $req ? '<span class="required" title="Required">*</span>' : '' ) . __( 'Name', 'manifest' ) . '</label> ' .
 
-    'email' =>
-      '<p class="comment-form-email"><label for="email">' . ( $req ? '<span class="required" title="Required">*</span>' : '' ) . __( 'Email', 'domainreference' ) . '</label> ' .
-      '<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
-      '" size="30"' . $aria_req . ' /> <span class="help-inline">not published</span></p>',
+				'<input id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
+				'" size="30"' . $aria_req . ' /></p>',
 
-    'url' =>
-      '<p class="comment-form-url"><label for="url">' .
-      __( 'Website', 'domainreference' ) . '</label>' .
-      ' <input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
-      '" size="30" /></p>'
-    )
-),
-'comment_field' => '<p class="comment-form-comment"><label for="comment">' . _x( 'Comment', 'noun' ) . '</label> <textarea id="comment" name="comment" aria-required="true"></textarea></p>' . 
+			'email' =>
+				'<p class="comment-form-email"><label for="email">' . ( $req ? '<span class="required" title="Required">*</span>' : '' ) . __( 'Email', 'manifest' ) . '</label> ' .
+				'<input id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
+				'" size="30"' . $aria_req . ' /> <span class="help-inline">not published</span></p>',
 
-'<div class="form-allowed-tags">' .
-    sprintf(
-      __( 'Allowed <abbr title="HyperText Markup Language">HTML</abbr> tags: %s' ),
-      ' <code>' . allowed_tags() . '</code>'
-    ) . '</div>'
+			'url' =>
+				'<p class="comment-form-url"><label for="url">' .
+				__( 'Website', 'manifest' ) . '</label>' .
+				' <input id="url" name="url" type="text" value="' . esc_attr( $commenter['comment_author_url'] ) .
+				'" size="30" /></p>'
+		)
+		),
+		'comment_field' => '<p class="comment-form-comment"><label for="comment">' . __( 'Comment', 'manifest' ) . '</label> <textarea id="comment" name="comment" aria-required="true"></textarea></p>' . 
 
-,
+		'<div class="form-allowed-tags">' .
+		sprintf(
+		__( 'Allowed <abbr title="HyperText Markup Language">HTML</abbr> tags: %s' ),
+		' <code>' . allowed_tags() . '</code>'
+		) . '</div>'
 
-);
-?>
+		,
+
+	);
+	?>
 	<?php comment_form($comments_args); ?>
 
 </div><!-- #comments .comments-area -->

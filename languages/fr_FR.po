@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Manifest\n"
+"POT-Creation-Date: 2014-09-17 14:30+0100\n"
+"PO-Revision-Date: 2014-09-17 14:30+0100\n"
+"Last-Translator: Laetitia Debruyne <pro@laetitiadebruyne.com>\n"
+"Language-Team: Laetitia Debruyne <pro@laetitiadebruyne.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: content-page.php:17 image.php:74 content-archive.php:24 content-link.php:28
+#: content-quote.php:28 content-single.php:26 single-quote.php:28
+#: content-aside.php:31 content.php:36 content-image.php:36
+msgid "Pages:"
+msgstr "Pages&nbsp;:"
+
+#: content-page.php:18 image.php:91 content-archive.php:22 content-link.php:63
+#: content-quote.php:66 content-single.php:53 single-quote.php:66
+#: content-aside.php:66 content.php:71 content-image.php:72
+msgid "Edit"
+msgstr "Éditer"
+
+#: header.php:46
+msgid "Menu"
+msgstr "Menu"
+
+#: header.php:47
+msgid "Skip to content"
+msgstr "Aller au contenu"
+
+#: no-results.php:14
+msgid "Nothing Found"
+msgstr "Aucun résultat trouvé"
+
+#: no-results.php:20
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article&nbsp;? <a href=\"%1$s\">Démarrez ici</"
+"a>."
+
+#: no-results.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, aucun contenu ne correspond à vos critères de recherche. Veuillez "
+"essayer de nouveau avec des mots-clés différents."
+
+#: no-results.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semblerait que nous ne pouvons pas trouver ce que vous cherchez. Peut-"
+"être qu'une recherche pourrait aider."
+
+#: image.php:81
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> in <a href=\"%6$s\" title=\"Return to %7$s\" rel="
+"\"gallery\">%7$s</a>"
+msgstr ""
+"Publié le <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> dans <a href=\"%6$s\" title=\"Revenir à %7$s\" "
+"rel=\"gallery\">%7$s</a>"
+
+#: image.php:95
+msgid "&larr; Previous"
+msgstr "&larr; Précédent"
+
+#: image.php:96
+msgid "Next &rarr;"
+msgstr "Suivant &rarr;"
+
+#: archive.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archives de la catégorie&nbsp;: %s"
+
+#: archive.php:25
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archives du mot-clé&nbsp;: %s"
+
+#: archive.php:32
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archives de l'auteur&nbsp;: %s"
+
+#: archive.php:40
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archives du jour&nbsp;: %s"
+
+#: archive.php:43
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archives du mois&nbsp;: %s"
+
+#: archive.php:46
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archives de l'année&nbsp;: %s"
+
+#: archive.php:49 sidebar.php:18
+msgid "Archives"
+msgstr "Archives"
+
+#: searchform.php:10
+msgid "Search"
+msgstr "Recherche"
+
+#: searchform.php:11
+msgid "Search &hellip;"
+msgstr "Rechercher &hellip;"
+
+#: content-link.php:19 content-quote.php:32 content-single.php:16
+#: single-quote.php:32 content.php:20 content-image.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalien de %s"
+
+#: content-link.php:27 content-quote.php:27 single-quote.php:27
+#: content-aside.php:30 content.php:35 content-image.php:35
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-link.php:37 content-link.php:47 content-quote.php:40
+#: content-quote.php:50 content-single.php:33 content-single.php:43
+#: single-quote.php:40 single-quote.php:50 content-aside.php:40
+#: content-aside.php:50 content.php:45 content.php:55 content-image.php:46
+#: content-image.php:56
+msgid ", "
+msgstr ", "
+
+#: content-link.php:41 content-quote.php:44 content-single.php:37
+#: single-quote.php:44 content-aside.php:44 content.php:49
+#: content-image.php:50
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans %1$s"
+
+#: content-link.php:52 content-quote.php:55 content-single.php:48
+#: single-quote.php:55 content-aside.php:55 content.php:60
+#: content-image.php:61
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Mots-clés&nbsp;: %1$s"
+
+#: content-link.php:60 content-quote.php:63 single-quote.php:63
+#: content-aside.php:63 content.php:68 content-image.php:69
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: content-link.php:60 content-quote.php:63 single-quote.php:63
+#: content-aside.php:63 content.php:68 content-image.php:69
+msgid "1 Comment"
+msgstr "1 commentaire"
+
+#: content-link.php:60 content-quote.php:63 single-quote.php:63
+#: content-aside.php:63 content.php:68 content-image.php:69
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: content-single.php:18 content.php:22 content-image.php:22
+msgid "by"
+msgstr "par"
+
+#: sidebar.php:25
+msgid "Meta"
+msgstr "Méta"
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Une pensée sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:32
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr "%1$s pensées sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:39 comments.php:59
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:40 comments.php:60
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaires plus anciens"
+
+#: comments.php:41 comments.php:61
+msgid "Newer Comments &rarr;"
+msgstr "Newer Commentaires plus récents"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:84
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:90
+msgid "Email"
+msgstr "E-Mail "
+
+#: comments.php:96
+msgid "Website"
+msgstr "Site web"
+
+#: comments.php:101
+msgid "Comment"
+msgstr "Commentaire"
+
+#: comments.php:105
+#, php-format
+msgid "Allowed <abbr title=\"HyperText Markup Language\">HTML</abbr> tags: %s"
+msgstr ""
+"Vous pouvez utiliser ces balises et attributs <abbr title=\"HyperText Markup "
+"Language\">HTML</abbr>&nbsp;: %s "
+
+#: footer.php:17
+msgid "Elsewhere"
+msgstr "Ailleurs"
+
+#: footer.php:51
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: footer.php:53
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Thème&nbsp;: %1$s par %2$s."
+
+#: functions.php:111
+msgid "Sidebar"
+msgstr "Colonne latérale"
+
+#: functions.php:119
+msgid "Archives Sidebar"
+msgstr "Colonne latérale des archives"
+
+#: search.php:17
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour&nbsp;: %s"
+
+#: content-aside.php:15
+msgid "Featured"
+msgstr "À la Une"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oups&nbsp;! Cette page est introuvable."
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Il semble qu'il n'y ait rien ici. Essayez l'un des liens ci-dessous ou une "
+"recherche&nbsp;?"
+
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Choisir parmi les catégories les plus utilisées "
+
+#: 404.php:35
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Essayez de chercher dans les archives par mois. %1$s"
+
+#: inc/template-tags.php:39
+msgid "Post navigation"
+msgstr "Navigation des articles"
+
+#: inc/template-tags.php:43
+msgid "&larr;"
+msgstr "&larr;"
+
+#: inc/template-tags.php:44
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: inc/template-tags.php:49
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Articles plus anciens"
+
+#: inc/template-tags.php:53
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Articles plus récents <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:78
+msgid "Pingback:"
+msgstr "Ping&nbsp;:"
+
+#: inc/template-tags.php:78 inc/template-tags.php:101
+msgid "(Edit)"
+msgstr "(Éditer)"
+
+#: inc/template-tags.php:88
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: inc/template-tags.php:91
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: inc/template-tags.php:99
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: inc/template-tags.php:126
+#, php-format
+msgid ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\">%4$s</time></a>"
+msgstr ""
+"<a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" "
+"datetime=\"%3$s\">%4$s</time></a>"
+
+#: inc/template-tags.php:132
+#, php-format
+msgid "View all posts by %s"
+msgstr "Voir tous les articles par %s "
+
+#: inc/customizer.php:22
+msgid "Content Link Color"
+msgstr "Couleur des liens de contenu"
+
+#: inc/extras.php:75
+#, php-format
+msgid "Page %s"
+msgstr "Page %s"

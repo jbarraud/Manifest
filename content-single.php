@@ -11,12 +11,12 @@
 			<?php manifest_posted_on(); ?>
 		</div><!-- .entry-meta -->
 		<?php if ( is_multi_author() ) : ?>
-		<hgroup>
+		<div class="hgroup">
 		<?php endif; ?>
 		<h1 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'manifest' ), the_title_attribute( 'echo=0' ) ) ); ?>" rel="bookmark"><?php the_title(); ?></a></h1>
 		<?php if ( is_multi_author() ) : ?>
-		<h4 class="vcard author">by <span class="fn"><?php the_author(); ?></span></h4>
-		</hgroup>
+		<h4 class="vcard author"><?php _e( 'by', 'manifest' ); ?> <span class="fn"><?php the_author(); ?></span></h4>
+		</div> <!-- .hgroup -->
 		<?php endif; ?>
 
 	</header><!-- .entry-header -->

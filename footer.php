@@ -14,7 +14,7 @@
 			?>
 			<header class="social-header">
 				<div class="entry-meta">
-							<span>Elsewhere</span>
+							<span><?php _e( 'Elsewhere', 'manifest' ); ?></span>
 			
 				</div><!-- .entry-meta -->
 			</header>			
